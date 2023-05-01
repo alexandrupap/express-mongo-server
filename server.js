@@ -1,7 +1,5 @@
 const expressMongoServer = require("./express-mongo-server");
 
-require("dotenv").config();
-
 const app = expressMongoServer({
     // App port
     PORT: 8080,

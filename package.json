@@ -2,7 +2,7 @@
     "name": "@alexandrupap/express-mongo-server",
     "version": "1.0.0",
     "description": "Express MongoDB Server",
-    "main": "server.js",
+    "main": "express-mongo-server.js",
     "scripts": {
         "start": "node server.js",
         "dev": "nodemon server.js"

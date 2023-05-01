@@ -5,7 +5,8 @@
     "main": "express-mongo-server.js",
     "scripts": {
         "start": "node server.js",
-        "dev": "nodemon server.js"
+        "dev": "nodemon server.js",
+        "clean": "del-cli node_modules package-lock.json build dist"
     },
     "repository": {
         "type": "git",
@@ -29,6 +30,7 @@
         "rotating-file-stream": "^3.1.0"
     },
     "devDependencies": {
+        "del-cli": "^5.0.0",
         "eslint": "^8.39.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-plugin-import": "^2.27.5",

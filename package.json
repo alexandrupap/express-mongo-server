@@ -1,5 +1,5 @@
 {
-    "name": "express-mongo-server",
+    "name": "@alexandrupap/express-mongo-server",
     "version": "1.0.0",
     "description": "Express MongoDB Server",
     "main": "server.js",

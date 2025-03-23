@@ -91,8 +91,6 @@ module.exports = function (options) {
             await mongoose.connect(
                 DB_CONNECTION_STRING,
                 {
-                    useUnifiedTopology: true,
-                    useNewUrlParser: true,
                     autoIndex: true,
                 },
             );
